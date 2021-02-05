@@ -1,62 +1,6 @@
-function showTime(){
-    var date = new Date();
-    var h = date.getHours(); // 0 - 23
-    var m = date.getMinutes(); // 0 - 59
-    var s = date.getSeconds(); // 0 - 59
-    var session = "AM";
-    
-    if(h == 0){
-        h = 12;
-    }
-    
-    if(h > 12){
-        h = h - 12;
-        session = "PM";
-    }
-    
-    h = (h < 10) ? "0" + h : h;
-    m = (m < 10) ? "0" + m : m;
-    s = (s < 10) ? "0" + s : s;
-    
-    var time = h + ":" + m + ":" + s ;
-    
+
   
-  
-  
-    document.getElementById("dafaprasetya").innerText = time;
-    document.getElementById("dafaprasetya").textContent = time;
-  }
-  
-  function showTime(){
-    var date = new Date();
-    var h = date.getHours(); // 0 - 23
-    var m = date.getMinutes(); // 0 - 59
-    var s = date.getSeconds(); // 0 - 59
-    var session = "AM";
-    
-    if(h == 0){
-        h = 12;
-    }
-    
-    else if(h > 12){
-        h = h - 12;
-        session = "PM";
-    }
-    
-    h = (h < 10) ? "0" + h : h;
-    m = (m < 10) ? "0" + m : m;
-    s = (s < 10) ? "0" + s : s; 
-    
-    var time = h + ":" + m + ":" + s ;
-    
-  
-  
-  
-    document.getElementById("jam").innerText = time;
-    document.getElementById("jam").textContent = time;
-  }
-  setInterval(showTime, 1000);
-  showTime();
+
 
   function pm(){
       date = new Date();
@@ -73,91 +17,7 @@ function showTime(){
   }
  
 
-  function ingat(){
-    date = new Date();
-    jam = date.getHours()
-    waktu = "malam cintaqu"
-  
-    if(jam == 0){
-      waktu = ">/////<"
-    }
-    if(jam == 22){
-      waktu = ">/////<"
-    }
-    else{
-      waktu = ">/////<"
-    }
-  
-  
-    var oon = waktu
-    document.getElementById("pengingat").innerText = oon;
-    document.getElementById("pengingat").textContent = oon;
-  }
-  ingat();
-  function inget(){
-    date = new Date();
-    jam = date.getHours()
-    waktu = "malam cintaqu"
-    
 
- 
-    if(jam == 0){
-      waktu = "Dibilangin Jangan Begadang!!"
-    }
-
-    if(jam >= 1){
-      waktu = "Tiduur!!"
-    }
-    if(jam == 6){
-      waktu = "Solat subuh dulu^^"
-    }
-    if(jam >= 5){
-      waktu = "Pagiii"
-    }
-    if(jam >= 8){
-      waktu = "Pagiii, Jangan Lupa Makan^^"
-    }
-    if(jam >= 10){
-      waktu = "Selamat pagi menjelang siang^^"
-    }
-    if(jam >= 12){
-      waktu = "Sianggg"
-    }
-    if(jam >= 13){
-      waktu = "Tidur siang dulu sana dan jangan lupa makan^^"
-    }
-    if(jam == 15){
-      waktu = "Udah bangun?"
-    }
-    if(jam >= 16){
-      waktu = "Mandi sana"
-    }
-    if(jam >= 18){
-      waktu = "solat"
-    }
-    if(jam == 19){
-      waktu = "Malam"
-
-    }
-    if(jam >= 20){
-      waktu = "Malam^^"
-    }
-    if(jam >= 22){
-      waktu = "Jangan Begadang"
-    }
-    if(jam == 23){
-      waktu = "jangan begadang!"
-    }
-
-
-    var oon = waktu
-    var jjam = jam
-    document.getElementById("test").innerText = jjam;
-    document.getElementById("test").textContent = jjam;
-    document.getElementById("inget").innerText = oon;
-    ///document.getElementById("inget").textContent = oon;
-  }
-  inget();
 
 
   var c = 0;
@@ -195,33 +55,7 @@ function showTime(){
   }
 
 
-
-  const quotes = [
-    {
-      "quote": "Hehe",
-      "source": "Dafaprstya"
-    },
-    {
-      "quote": "love you",
-      "source": "this is proof"
-    },
-    {
-      "quote": "love you",
-      "source": ">////<"
-    },
-    {
-      "quote": "Bilaaa",
-      "source": ">////<"
-    },
-  ]
   
-  function randomQuote(){
-    let random = quotes[Math.floor(Math.random() * quotes.length)];
-    quotation.innerText = `"${random.quote}"`;
-    source.innerText = random.source;
-  }
-  
-  setInterval(randomQuote, 2000);
   
 
   function saran(){
@@ -346,3 +180,501 @@ document.addEventListener("click", function(kkk){
     },2000)
   })
 })
+ingat();
+  function inget(){
+    date = new Date();
+    jam = date.getHours()
+    waktu = "malam cintaqu"
+    
+
+ 
+    if(jam == 0){
+      waktu = "Tidur"
+    }
+
+    if(jam >= 1){
+      waktu = "Tiduur!!"
+    }
+    if(jam == 6){
+      waktu = "Sleep"
+    }
+    if(jam >= 5){
+      waktu = "Pagiii"
+    }
+    if(jam >= 8){
+      waktu = "LuvYuuuuuu"
+    }
+    if(jam >= 10){
+      waktu = "Hai"
+    }
+    if(jam >= 12){
+      waktu = "Udh makan?"
+    }
+    if(jam >= 13){
+      waktu = ":)"
+    }
+    if(jam == 15){
+      waktu = ":y"
+    }
+    if(jam >= 16){
+      waktu = "Pubg ga?"
+    }
+    if(jam >= 18){
+      waktu = "jam 6"
+    }
+    if(jam == 19){
+      waktu = "Luvyuuuu"
+
+    }
+    if(jam >= 20){
+      waktu = "i love you"
+    }
+    if(jam >= 22){
+      waktu = "."
+    }
+    if(jam == 23){
+      waktu = ".."
+    }
+
+
+    var oon = waktu
+    var jjam = jam
+    document.getElementById("test").innerText = jjam;
+    document.getElementById("test").textContent = jjam;
+    document.getElementById("inget").innerText = oon;
+    ///document.getElementById("inget").textContent = oon;
+}
+inget();
+
+
+var p = 'prstya'
+const quotes = [
+  {
+    "quote": "this is a proof",
+    "source": "Prstya"
+  },
+  {
+    "quote": "luvvvv",
+    "source": "PPRRSSTTYYAA"
+    },
+  {
+    "quote": "Luv yu",
+    "source": "Bilaaa"
+  },
+  {
+    "quote": "Lopyuuuuuuu",
+    "source": ">////<"
+  },
+]
+  
+function randomQuote(){
+  let random = quotes[Math.floor(Math.random() * quotes.length)];
+  quotation.innerText = `${random.quote}`;
+  source.innerText = random.source;
+}
+  
+setInterval(randomQuote, 2000);
+
+
+
+function showTime(){
+  var date = new Date();
+  var h = date.getHours(); // 0 - 23
+  var m = date.getMinutes(); // 0 - 59
+  var s = date.getSeconds(); // 0 - 59
+  var session = "AM";
+  
+  if(h == 0){
+      h = 12;
+  }
+  
+  else if(h > 12){
+      h = h - 12;
+      session = "PM";
+  }
+  
+  h = (h < 10) ? "0" + h : h;
+  m = (m < 10) ? "0" + m : m;
+  s = (s < 10) ? "0" + s : s; 
+  
+  var time = h + ":" + m + ":" + s ;
+
+  
+
+  
+
+  document.getElementById("jam").innerText = time;
+  document.getElementById("jam").textContent = time;
+}
+setInterval(showTime, 1000);
+showTime();
+
+function dafaprstya() {
+  
+  document.getElementById('dafaprasetya').innerHTML = 'Love You';
+  if (window.performance) {
+    console.info("REFRES");
+  }
+  console.info(performance.navigation.type);
+  
+}
+dafaprstya();
+
+
+function ingat(){
+  date = new Date();
+  jam = date.getHours()
+  waktu = "malam cintaqu"
+
+  if(jam == 0){
+    waktu = "NabilaTndko"
+  }
+  if(jam == 22){
+    waktu = "Bilaa"
+  }
+  else{
+    waktu = "Bilaaa"
+  }
+
+
+  var oon = waktu
+  document.getElementById("pengingat").innerText = oon;
+  document.getElementById("pengingat").textContent = oon;
+}
+function ppp(){
+  function sleep (time) {
+    return new Promise((resolve) => setTimeout(resolve, time));
+  }
+  var prstya = document.getElementById("dafaprasetya")
+  var penging = document.getElementById("pengingat")
+  var pmdw = document.getElementById("pmdanwaktu")
+  var dd = document.getElementById("tema")
+  var jj = document.getElementById("inget")
+  var audio = document.getElementById("audio")
+  var ketik = 'typing 2s steps(25, end), blink-caret .5s step-end infinite'
+  var q = document.getElementById('loper')
+  if (performance.navigation.type == performance.navigation.TYPE_RELOAD) {
+    document.getElementById('temah').disabled = true
+    audio.pause()
+    q.style.display = 'block'
+      document.getElementById('temah').disabled = true
+      audio.pause()
+      sleep(3000).then(() => {
+        
+        
+        document.getElementById('temah').setAttribute('checked', 'checked')
+        
+        
+        
+        
+        
+      });
+      ///menghilang
+      sleep(3500).then(() => {
+        document.getElementById('temah').disabled = true
+        
+        document.getElementById('aurora').style.animation = 'fadeout 2.5s'
+        document.getElementById("jam").style.animation = 'fadeout 2.5s'
+        document.getElementById("ea").style.animation = 'fadeout 2.5s'
+        document.getElementById("judul").innerText = '?'
+        prstya.style.animation = 'fadeout 2.5s'
+        jj.style.animation = 'fadeout 2.5s'
+        penging.style.animation = 'fadeout 2.5s'
+        
+        
+        
+        
+      });
+      //hi
+      sleep(6000).then(() => {
+        document.getElementById('aurora').style.display = 'none'
+        document.getElementById("jam").style.display = 'none'
+        document.getElementById("ea").style.display = 'none'
+        penging.style.animation = ketik
+        penging.style.fontFamily = 'quote'
+        document.getElementById("judul").innerText = 'Hi, Nabila'
+        penging.innerHTML = 'Hi, Nabila'
+        jj.style.display = 'none'
+        prstya.style.display = 'none'
+        penging.style.whiteSpace = 'nowrap'
+        
+        
+        
+        
+      });
+      sleep(8000).then(() => {
+        penging.style.display = 'block'
+        document.getElementById('aurora').style.display = 'none'
+        document.getElementById("jam").style.display = 'none'
+        document.getElementById("ea").style.display = 'none'
+        penging.style.animation = 'fadeout 1s'
+        
+        jj.style.display = 'none'
+        prstya.style.display = 'none'
+        penging.style.whiteSpace = 'nowrap'
+        
+        
+        
+      });
+      
+      sleep(9000).then(() => {
+        document.getElementById('aurora').style.display = 'none'
+        document.getElementById("jam").style.display = 'none'
+        document.getElementById("ea").style.display = 'none'
+        penging.style.animation = 'typing 2s steps(25, end), blink-caret .5s step-end infinite'
+        document.getElementById("judul").innerText = 'Kalau kamu liat ini'
+        penging.innerHTML = 'Kalau kamu liat ini'
+        jj.style.display = 'none'
+        prstya.style.display = 'none'
+        penging.style.whiteSpace = 'nowrap'
+        
+        
+        
+      });
+      sleep(13000).then(() => {
+        penging.style.display = 'block'
+        document.getElementById('aurora').style.display = 'none'
+        document.getElementById("jam").style.display = 'none'
+        document.getElementById("ea").style.display = 'none'
+        penging.style.animation = 'fadeout 1s'
+        
+        jj.style.display = 'none'
+        prstya.style.display = 'none'
+        penging.style.whiteSpace = 'nowrap'
+        
+        
+        
+      });
+      //gw mau ngucapin
+      sleep(14000).then(() => {
+        document.getElementById('aurora').style.display = 'none'
+        document.getElementById("jam").style.display = 'none'
+        document.getElementById("ea").style.display = 'none'
+        penging.style.animation = 'fadein 1s'
+        document.getElementById("judul").innerText = 'Finaly You Found Easter Egg!!'
+        penging.innerHTML = 'Finaly You Found Easter Egg!!'
+        penging.style.width = '800px'
+        jj.style.display = 'none'
+        prstya.style.display = 'none'
+        penging.style.whiteSpace = 'nowrap'
+        
+        
+        
+      });
+      sleep(18000).then(() => {
+        penging.style.display = 'block'
+        document.getElementById('aurora').style.display = 'none'
+        document.getElementById("jam").style.display = 'none'
+        document.getElementById("ea").style.display = 'none'
+        penging.style.animation = 'fadeout 1s'
+        
+        jj.style.display = 'none'
+        prstya.style.display = 'none'
+        penging.style.whiteSpace = 'nowrap'
+        
+        
+        
+      });
+      //happy birthday
+      sleep(19000).then(() => {
+        document.getElementById('aurora').style.display = 'none'
+        document.getElementById("jam").style.display = 'none'
+        document.getElementById("ea").style.display = 'none'
+        penging.style.animation = ketik
+        document.getElementById("judul").innerText = 'Sekarang..'
+        penging.innerHTML = 'Sekarang..'
+        jj.style.display = 'none'
+        prstya.style.display = 'none'
+        penging.style.whiteSpace = 'nowrap'
+        
+        
+        
+      });
+      sleep(22000).then(() => {
+        penging.style.display = 'block'
+        document.getElementById('aurora').style.display = 'none'
+        document.getElementById("jam").style.display = 'none'
+        document.getElementById("ea").style.display = 'none'
+        penging.style.animation = 'fadeout 1s'
+        
+        jj.style.display = 'none'
+        prstya.style.display = 'none'
+        penging.style.whiteSpace = 'nowrap'
+        
+        
+        
+      });
+      //and
+      sleep(23000).then(() => {
+        document.getElementById('aurora').style.display = 'none'
+        document.getElementById("jam").style.display = 'none'
+        document.getElementById("ea").style.display = 'none'
+        penging.style.animation = ketik
+        document.getElementById("judul").innerText = '....'
+        penging.innerHTML = '....'
+        jj.style.display = 'none'
+        prstya.style.display = 'none'
+        penging.style.whiteSpace = 'nowrap'
+        
+        
+        
+      });
+      sleep(24000).then(() => {
+        penging.style.display = 'block'
+        document.getElementById('aurora').style.display = 'none'
+        document.getElementById("jam").style.display = 'none'
+        document.getElementById("ea").style.display = 'none'
+        penging.style.animation = 'fadeout 1s'
+        
+        jj.style.display = 'none'
+        prstya.style.display = 'none'
+        penging.style.whiteSpace = 'nowrap'
+        
+        
+        
+      });
+      //do1
+      sleep(25000).then(() => {
+        document.getElementById('aurora').style.display = 'none'
+        document.getElementById("jam").style.display = 'none'
+        document.getElementById("ea").style.display = 'none'
+        penging.style.animation = ketik
+        document.getElementById("judul").innerText = 'Do'
+        penging.innerHTML = 'Do'
+        jj.style.display = 'none'
+        prstya.style.display = 'none'
+        penging.style.whiteSpace = 'nowrap'
+        
+        
+        
+      });
+      sleep(26000).then(() => {
+        penging.style.display = 'block'
+        document.getElementById('aurora').style.display = 'none'
+        document.getElementById("jam").style.display = 'none'
+        document.getElementById("ea").style.display = 'none'
+        penging.style.animation = 'fadeout 1s'
+        
+        jj.style.display = 'none'
+        prstya.style.display = 'none'
+        penging.style.whiteSpace = 'nowrap'
+        
+        
+        
+      });
+      //do2
+      sleep(27000).then(() => {
+        document.getElementById('aurora').style.display = 'none'
+        document.getElementById("jam").style.display = 'none'
+        document.getElementById("ea").style.display = 'none'
+        penging.style.animation = ketik
+        penging.innerHTML = 'Do'
+        jj.style.display = 'none'
+        prstya.style.display = 'none'
+        penging.style.whiteSpace = 'nowrap'
+        
+        
+        
+      });
+      sleep(28000).then(() => {
+        penging.style.display = 'block'
+        document.getElementById('aurora').style.display = 'none'
+        document.getElementById("jam").style.display = 'none'
+        document.getElementById("ea").style.display = 'none'
+        penging.style.animation = 'fadeout 1s'
+        
+        jj.style.display = 'none'
+        prstya.style.display = 'none'
+        penging.style.whiteSpace = 'nowrap'
+        
+        
+        
+      });
+      //doyouwant
+      sleep(29000).then(() => {
+        document.getElementById('aurora').style.display = 'none'
+        document.getElementById("jam").style.display = 'none'
+        document.getElementById("ea").style.display = 'none'
+        prstya.style.animation = ketik
+        prstya.style.fontFamily = 'quote'
+        prstya.style.fontSize = '50px'
+        document.getElementById("judul").innerText = 'Do You Want'
+        prstya.innerHTML = 'Do You Want'
+        jj.style.display = 'none'
+        prstya.style.display = 'block'
+        penging.style.display = 'none'
+        prstya.style.whiteSpace = 'nowrap'
+        
+        
+        
+      });
+      //tobemy
+      sleep(31000).then(() => {
+        document.getElementById("judul").innerText = 'To Be My'
+        penging.innerHTML = 'To Be My'
+        jj.style.display = 'none'
+        prstya.style.display = 'block'
+        penging.style.display = 'block'
+        prstya.style.whiteSpace = 'nowrap'
+        penging.style.animation = ketik
+        
+        
+        
+      });
+      sleep(33000).then(() => {
+        jj.style.fontFamily = 'quote'
+        document.getElementById("judul").innerText = 'GirlFriend'
+        jj.innerHTML = 'GirlFriend'
+        jj.style.letterSpacing = '10px'
+        jj.style.display = 'block'
+        prstya.style.display = 'block'
+        penging.style.display = 'block'
+        jj.style.whiteSpace = 'nowrap'
+        jj.style.animation = ketik
+        jj.style.fontSize = '40px'
+        
+        
+      });
+      sleep(37000).then(() => {
+        
+        document.getElementById("ea").style.display = 'block'
+        document.getElementById("ea").style.animation = 'none'
+        document.getElementById("source").style.display = 'none'
+        document.getElementById('quotation').style.display = 'none'
+        q.style.whiteSpace = 'nowrap'
+        q.style.fontFamily = 'pubg'
+        q.style.display = 'block'
+        q.style.wordSpacing = '10px'
+        q.style.letterSpacing = '3px'
+        q.style.animation = 'fadein 3s'
+        document.getElementById("judul").innerText = '?'
+        q.innerHTML = '?'
+        
+        
+      });
+      sleep(39000).then(() => {
+        jj.onclick = function event() {
+          jj.style.animation = 'glic 1s steps(100) infinite'
+          setTimeout(function(){ jj.style.animation = 'none' }, 3000);
+        } 
+        prstya.onclick = function event() {
+          prstya.style.animation = 'glic 1s steps(100) infinite'
+          setTimeout(function(){ prstya.style.animation = 'none' }, 3000);
+        } 
+        penging.onclick = function event() {
+          penging.style.animation = 'glic 1s steps(100) infinite'
+          setTimeout(function(){ penging.style.animation = 'none' }, 3000);
+        }    
+        q.onclick = function event() {
+          q.style.animation = 'glic 1s steps(100) infinite'
+          setTimeout(function(){ q.style.animation = 'none' }, 3000);
+        }     
+        
+        
+      });
+    }
+    
+    
+  
+}  
+ppp();

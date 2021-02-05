@@ -12,8 +12,16 @@
     src: url(font/cyber.ttf);
   }
 @font-face{
+    font-family: "east";
+    src: url(font/p.ttf);
+  }
+@font-face{
     font-family: "Crush";
     src: url(font/kntl.ttf);
+  }
+@font-face{
+    font-family: "pubg";
+    src: url(font/pugbr.ttf);
   }
 @font-face{
     font-family: "digital";
@@ -69,7 +77,7 @@ body{
   transition: 0.5s;
   color: rgb(247, 117, 117);
   content: "❤";
-    animation: dp 2s 1;
+  animation: dp 2s 1;
 }
 @keyframes dp{
   0%{
@@ -136,7 +144,7 @@ body{
     position: absolute;
     width: 10px;
     height: 10px;
-    background-color: white;
+    background-color: white ;
     border-radius: 50%;
     box-shadow: 0 0 5px #55ebff,
     0 0 10px #55ebff,
@@ -273,7 +281,9 @@ body{
   #dafaprasetya{
     opacity : 1;
     transition: 0.5s;
-    width: 400px;
+    width: 600px;
+    
+    
     height: 80px;
     font-family: "digital";
     color: #ffffff;
@@ -298,7 +308,7 @@ body{
     transition: 0.5s;
     width: 400px;
     height: 80px;
-    font-family: "digital";
+    font-family: "Crush";
     color: #ffffff;
     font-size: 30px;
     text-align: center;
@@ -310,7 +320,7 @@ body{
                  0 0 50px #55ebff,
                  0 0 100px #55ebff;
     transform: translate(-50%, -50%);
-    content: "do you love me?";
+    content: "LopYuuu";
   }
 
 
@@ -321,7 +331,7 @@ body{
 
   #pengingat{
     transition: 0.5s;
-    width: 400px;
+    width: 500px;
     height: 80px;
     font-family: "dark seed";
     color: #ffffff;
@@ -329,7 +339,7 @@ body{
     letter-spacing: 10px;
     text-align: center;
     position: absolute;
-    top: 75%;
+    top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
     animation: nongol 2s 1;
@@ -342,15 +352,15 @@ body{
   #pengingat:active{
     font-size: 0;
   }
-  #pengingat:active::after{
-    font-family: 'Source Code Pro', monospace;
-    font-size: 30px;
+  #pengingat:active::before{
+    font-family: 'Source Code Pro';
+    font-size: 20px;
     position: absolute;
-    top: 30%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
     transition: 0.5s;
-    content: "dafa_prstya";
+    content: "Love Youu";
     animation: glic 1s steps(100) infinite;
   }
   #pm{
@@ -590,6 +600,14 @@ body{
   background-color: white;
 }
 
+@keyframes fadeout{
+  0%{
+      opacity: 1;
+  }
+  100%{
+      opacity: 0;
+  }
+}
 
 
 
@@ -796,6 +814,24 @@ audio{
   transform: translate(-50%, -50%);
   animation: nongol 3s 1;
 }
+#loper{
+  cursor: pointer;
+  width: 400px;
+  height: 150px;
+  font-size: 40px;
+  font-family: 'Source Code Pro', monospace;
+  color: #333333;
+  text-align: center;
+  position: absolute;
+  top: 80%;
+  z-index: 9999;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+
+
 
 #inget{
   cursor: pointer;
@@ -806,7 +842,7 @@ audio{
     color: #ffffff;
     text-align: center;
     position: absolute;
-    top: 120%;
+    top: 130%;
     left: 50%;
     transform: translate(-50%, -50%);
     transition: 0.5s ;
@@ -892,7 +928,16 @@ audio{
   transform: translate(-50%, -50%);
   animation: glic 2s steps(100) infinite;
 }
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
 
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: black }
+  50% { border-color:  white}
+}
 .tema{
   font-family: 'Source Code Pro', monospace;
   font-size: 10px;
@@ -1342,6 +1387,10 @@ transition: 0.5s;
   }
   .bulet blockquote{
     top: 90%;
+    left: 50%;
+  }
+  #loper{
+    top: 90%;
     left: 55%;
   }
   .bulet span:nth-child(1){
@@ -1416,6 +1465,7 @@ transition: 0.5s;
   .bulet blockquote{
     left: 50%;
   }
+  
   .bok{
     position: absolute;
     font-size: 15px;
@@ -1473,4 +1523,8 @@ transition: 0.5s;
     z-index: 1;
      display: block;
    }
+   #loper{
+    left: 125%;
+    top: 130%;
+  }
 }
