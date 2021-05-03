@@ -1,5 +1,5 @@
 
-  
+
 document.getElementById('temah').setAttribute('checked', 'checked')
 
   function pm(){
@@ -351,6 +351,7 @@ function ppp(){
   var dd = document.getElementById("tema")
   var jj = document.getElementById("inget")
   var audio = document.getElementById("audio")
+  audio.volume = 0.2
   var ketik = 'typing 2s steps(25, end), blink-caret .5s step-end infinite'
   var q = document.getElementById('loper')
   if (performance.navigation.type == performance.navigation.TYPE_RELOAD) {
