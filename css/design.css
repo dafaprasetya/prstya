@@ -144,12 +144,13 @@ body{
     position: absolute;
     width: 10px;
     height: 10px;
-    background-color: white ;
+    background-color: transparent ;
     border-radius: 50%;
+    /* 
     box-shadow: 0 0 5px #55ebff,
     0 0 10px #55ebff,
     0 0 50px #55ebff,
-    0 0 100px #55ebff;
+    0 0 100px #55ebff;*/
   }
   .bulet1 div:nth-child(1){
     top: 100%;
@@ -206,12 +207,13 @@ body{
     position: absolute;
     width: 10px;
     height: 10px;
-    background-color: white;
+    background-color: transparent;
     border-radius: 50%;
+    /*
     box-shadow: 0 0 5px #55ebff,
     0 0 10px #55ebff,
     0 0 50px #55ebff,
-    0 0 100px #55ebff;
+    0 0 100px #55ebff;*/
   }
   .bulet2 div:nth-child(1){
     top: 100%;
@@ -1030,9 +1032,8 @@ text-align: center;
 --text: black;
 }
 .theme-switch__input:checked ~ .bulet blockquote{
-	background: linear-gradient(to right, #707070, #3a3a3a, #202020);
-	-webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+	color: #333333;
+	
 }
 
 .theme-switch__input:checked ~ .bulet span:nth-child(1){
@@ -1050,11 +1051,11 @@ text-align: center;
 .theme-switch__input:checked ~ .bulet blockquote:hover{
   text-shadow: none;
 }
+.theme-switch__input:checked ~ .box #inget,
 .theme-switch__input:checked ~ .box .pmdanwaktu #dafaprasetya,
 .theme-switch__input:checked ~ .box .pmdanwaktu #pm,
 .theme-switch__input:checked ~ .box #pengingat,
 .theme-switch__input:checked ~ .box #jam,
-.theme-switch__input:checked ~ .box #inget,
 .theme-switch__input:checked ~ .box .pmdanwaktu #dafaprasetya:active::before{
   text-shadow: none;
   background: linear-gradient(to right, #707070, #3a3a3a, #202020);	-webkit-background-clip: text; -webkit-text-fill-color: transparent;
@@ -1064,6 +1065,7 @@ text-align: center;
 .theme-switch__input:checked ~ body{
   animation: gradient 1s ease infinite;
 }
+
 
 
 .theme-switch__input:checked ~ .menu{
@@ -1177,7 +1179,7 @@ transform: translate3d(45px, 0, 0);
 
 .theme-switch__input:checked ~  #buble .bulet1 div,
 .theme-switch__input:checked ~  #buble .bulet2 div{
-  background-color : #333333 ;
+  background-color : transparent ;
   box-shadow : none;
 }
 

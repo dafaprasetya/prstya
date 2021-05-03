@@ -1,6 +1,6 @@
 
   
-
+document.getElementById('temah').setAttribute('checked', 'checked')
 
   function pm(){
       date = new Date();
@@ -189,11 +189,11 @@ ingat();
 
  
     if(jam == 0){
-      waktu = "Tidur"
+      waktu = "Happy Birthday"
     }
 
     if(jam >= 1){
-      waktu = "Tiduur!!"
+      waktu = "Happy Birthday sekarang tidur"
     }
     if(jam == 6){
       waktu = "Sleep"
@@ -205,10 +205,10 @@ ingat();
       waktu = "LuvYuuuuuu"
     }
     if(jam >= 10){
-      waktu = "Hai"
+      waktu = "sini maeenn"
     }
     if(jam >= 12){
-      waktu = "Udh makan?"
+      waktu = "ayoooo"
     }
     if(jam >= 13){
       waktu = ":)"
@@ -217,7 +217,7 @@ ingat();
       waktu = ":y"
     }
     if(jam >= 16){
-      waktu = "Pubg ga?"
+      waktu = "mabarr ga?"
     }
     if(jam >= 18){
       waktu = "jam 6"
@@ -250,16 +250,16 @@ inget();
 var p = 'prstya'
 const quotes = [
   {
-    "quote": "this is a proof",
+    "quote": "Happy Birthday!!!🥳🥳",
     "source": "Prstya"
   },
   {
-    "quote": "luvvvv",
-    "source": "PPRRSSTTYYAA"
+    "quote": "Yang ke 30 tahun",
+    "source": "eh 100 deng"
     },
   {
-    "quote": "Luv yu",
-    "source": "Bilaaa"
+    "quote": "Ha Be De",
+    "source": "🎊🎊🎊"
   },
   {
     "quote": "Lopyuuuuuuu",
@@ -311,7 +311,7 @@ showTime();
 
 function dafaprstya() {
   
-  document.getElementById('dafaprasetya').innerHTML = 'Love You';
+  document.getElementById('dafaprasetya').innerHTML = 'Happy Birthday';
   if (window.performance) {
     console.info("REFRES");
   }
@@ -376,7 +376,7 @@ function ppp(){
         document.getElementById('aurora').style.animation = 'fadeout 2.5s'
         document.getElementById("jam").style.animation = 'fadeout 2.5s'
         document.getElementById("ea").style.animation = 'fadeout 2.5s'
-        document.getElementById("judul").innerText = '?'
+        document.getElementById("judul").innerText = '...'
         prstya.style.animation = 'fadeout 2.5s'
         jj.style.animation = 'fadeout 2.5s'
         penging.style.animation = 'fadeout 2.5s'
@@ -392,8 +392,8 @@ function ppp(){
         document.getElementById("ea").style.display = 'none'
         penging.style.animation = ketik
         penging.style.fontFamily = 'quote'
-        document.getElementById("judul").innerText = 'Hi, Nabila'
-        penging.innerHTML = 'Hi, Nabila'
+        document.getElementById("judul").innerText = 'Hi, Qiraa'
+        penging.innerHTML = 'Hi, Qiraa'
         jj.style.display = 'none'
         prstya.style.display = 'none'
         penging.style.whiteSpace = 'nowrap'
@@ -539,8 +539,8 @@ function ppp(){
         document.getElementById("jam").style.display = 'none'
         document.getElementById("ea").style.display = 'none'
         penging.style.animation = ketik
-        document.getElementById("judul").innerText = 'Do'
-        penging.innerHTML = 'Do'
+        document.getElementById("judul").innerText = '..'
+        penging.innerHTML = '..'
         jj.style.display = 'none'
         prstya.style.display = 'none'
         penging.style.whiteSpace = 'nowrap'
@@ -568,7 +568,7 @@ function ppp(){
         document.getElementById("jam").style.display = 'none'
         document.getElementById("ea").style.display = 'none'
         penging.style.animation = ketik
-        penging.innerHTML = 'Do'
+        penging.innerHTML = '..'
         jj.style.display = 'none'
         prstya.style.display = 'none'
         penging.style.whiteSpace = 'nowrap'
@@ -598,8 +598,8 @@ function ppp(){
         prstya.style.animation = ketik
         prstya.style.fontFamily = 'quote'
         prstya.style.fontSize = '50px'
-        document.getElementById("judul").innerText = 'Do You Want'
-        prstya.innerHTML = 'Do You Want'
+        document.getElementById("judul").innerText = 'Happy'
+        prstya.innerHTML = 'Happy'
         jj.style.display = 'none'
         prstya.style.display = 'block'
         penging.style.display = 'none'
@@ -610,8 +610,8 @@ function ppp(){
       });
       //tobemy
       sleep(31000).then(() => {
-        document.getElementById("judul").innerText = 'To Be My'
-        penging.innerHTML = 'To Be My'
+        document.getElementById("judul").innerText = 'Birthday'
+        penging.innerHTML = 'Birthday'
         jj.style.display = 'none'
         prstya.style.display = 'block'
         penging.style.display = 'block'
@@ -623,15 +623,15 @@ function ppp(){
       });
       sleep(33000).then(() => {
         jj.style.fontFamily = 'quote'
-        document.getElementById("judul").innerText = 'GirlFriend'
-        jj.innerHTML = 'GirlFriend'
-        jj.style.letterSpacing = '10px'
+        document.getElementById("judul").innerText = 'Qiranniah Prasetya Tndko'
+        jj.innerHTML = 'Qiranniah Prasetya Tndko'
+        jj.style.letterSpacing = '2px'
         jj.style.display = 'block'
         prstya.style.display = 'block'
         penging.style.display = 'block'
         jj.style.whiteSpace = 'nowrap'
         jj.style.animation = ketik
-        jj.style.fontSize = '40px'
+        jj.style.fontSize = '30px'
         
         
       });
@@ -647,8 +647,8 @@ function ppp(){
         q.style.wordSpacing = '10px'
         q.style.letterSpacing = '3px'
         q.style.animation = 'fadein 3s'
-        document.getElementById("judul").innerText = '?'
-        q.innerHTML = '?'
+        document.getElementById("judul").innerText = 'Happy Birthday'
+        q.innerHTML = 'yang ke-20 eh 16 deng'
         
         
       });
